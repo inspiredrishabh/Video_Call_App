@@ -1,12 +1,25 @@
-# React + Vite
+# Video Call App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React-based video calling application** that leverages the [ZegoCloud API](https://www.zegocloud.com/) to provide real-time video call functionality. Users can join video rooms using unique room IDs and enjoy seamless communication.
 
-Currently, two official plugins are available:
+# Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Image 01](./src/assets/01.png)
+![Image 02](./src/assets/02.png)
+![Image 03](./src/assets/03.png)
+![Image 04](./src/assets/04.png)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- **Real-time video calling** powered by ZegoCloud's UIKit Prebuilt SDK.
+- Join video rooms via dynamic Room IDs.
+- Lightweight and optimized with modern tools like Vite.
+- User-friendly interface with responsive design.
+
+## Tech Stack
+
+- **Frontend**: React, React Router DOM
+- **Backend/Real-time Video Call**: ZegoUIKitPrebuilt SDK
+- **Build Tool**: Vite
+- **Linting**: ESLint
